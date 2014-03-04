@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
+# Install firefox
+apt-get update
+apt-get install firefox startx lxde lxdm virtualbox-ose-guest-x11 -y
+
 # This folder is shared as /vagrant inside the virtual box
 cd /vagrant/bin
 tar -xjf UPEditorLinux64.tar.bz2 

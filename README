@@ -8,6 +8,15 @@ The specific executable used was downloaded from this url:
 
   wget https://online.unionpay.com/mer/resources/js/ocx/UPEditorLinux64.tar.bz2 
 
+To boot up, do the following:
+
+  vagrant up
+
+Then in the VirtualBox that opens:
+
+  sudo startx
+
+You should then be able to launch firefox.
 
 == UnionPay Test Details 
 
