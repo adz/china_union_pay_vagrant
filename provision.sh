@@ -9,3 +9,5 @@ cd /vagrant/bin
 tar -xjf UPEditorLinux64.tar.bz2 
 chmod a+x ./UPEditor-1.0-Linux-x86_64-Install
 ./UPEditor-1.0-Linux-x86_64-Install  --prefix /home/vagrant/.mozilla/plugins --mode silent
+chown vagrant:vagrant /home/vagrant/.mozilla
+chown vagrant:vagrant /home/vagrant/.mozilla/plugins
