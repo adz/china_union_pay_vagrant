@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 # Install firefox
 apt-get update
+apt-get upgrade -y
 apt-get install firefox lxde lxdm virtualbox-ose-guest-x11 -y
 
 # This folder is shared as /vagrant inside the virtual box
